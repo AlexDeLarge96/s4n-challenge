@@ -1,0 +1,4 @@
+range: 10
+drones:
+  capacity: 3
+  number: 20
