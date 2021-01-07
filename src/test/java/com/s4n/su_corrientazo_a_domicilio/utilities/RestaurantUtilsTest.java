@@ -29,7 +29,7 @@ class RestaurantUtilsTest {
         assertEquals("01", drones.get(0).getId());
         assertEquals(2, drones.get(0).getCapacity());
         assertEquals(3, drones.get(0).getRange());
-        assertEquals("(0,0) dirección Norte", drones.get(0).getPosition().toString());
+        assertEquals("(0,0) direccion Norte", drones.get(0).getPosition().toString());
         assertTrue(drones.get(0).getTask() instanceof EmptyTask);
         assertTrue(drones.get(0).getTaskResult().getDeliveriesResults().isEmpty());
         assertTrue(drones.get(0).getTaskResult().toString().isEmpty());
